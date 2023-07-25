@@ -166,7 +166,7 @@ void logic(Direction *dir, bool *gameOver, int *headX, int *headY, int width, in
 void instructions()
 {
     cout << "--------------------- Instructions ---------------------\n\n";
-    cout << "1) Press 'A' key to move the snake in left direction.\n2) Press 'W' key to move the snake in upward direction.\n1) Press 'S' key to move the snake in downward direction.\n1) Press 'D' key to move the snake in right direction.\n5) Try to eat the fruit in order to cool down the hunger of snake.\n6) After eating each fruit you will get '10' points.\n7) You can pass the walls and will be coming from the opposite directions of the walls at the same lane.\n8) If you try to bite a snake by itself your game will be over :(";
+    cout << "1) Press 'A' key to move the snake in left direction.\n2) Press 'W' key to move the snake in upward direction.\n3) Press 'S' key to move the snake in downward direction.\n4) Press 'D' key to move the snake in right direction.\n5) Try to eat the fruit in order to cool down the hunger of snake.\n6) After eating each fruit you will get '10' points.\n7) You can pass the walls and will be coming from the opposite directions of the walls at the same lane.\n8) If you try to bite a snake by itself your game will be over :(";
 }
 
 int main()
